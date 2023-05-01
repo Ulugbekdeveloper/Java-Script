@@ -1,8 +1,8 @@
 // let user = {name:"Temurbek", age:27 , _pass:223344};
 
 // let proxy = new Proxy(user, {
-// ownKeys(result){
-//    return Object.keys(result).filter((val)=> !val.startsWith('_'))
+// ownKeys(target){
+//    return Object.keys(target).filter((val)=> !val.startsWith('_'))
 // }
 // })
 
