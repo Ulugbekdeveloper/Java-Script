@@ -1,0 +1,25 @@
+/* body{
+    margin: 0;
+}
+.box{
+    height: 200px;
+    width: 70px;
+    background-color: blue;
+    overflow: auto;
+}
+
+.navbar {
+    display: flex;
+    justify-content: space-around ;
+    align-items: center;
+    background-color: black;
+    height: 46px;
+    position: sticky;
+    margin-top: 20px;
+    top: 0;
+    /* box-shadow: 1px 2px 3px; 
+}
+.item {
+    color: white;
+}
+ */
