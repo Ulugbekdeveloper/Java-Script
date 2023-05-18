@@ -105,21 +105,21 @@
 //     }
 // }
 
-let buffer = new ArrayBuffer(2)
-let view = new DataView(buffer)
+// let buffer = new ArrayBuffer(2)
+// let view = new DataView(buffer)
 
-view.setInt8(0,104)
-view.setInt8(1,105)
+// view.setInt8(0,104)
+// view.setInt8(1,105)
 
 
-let file = new File([buffer], "Secret.txt", {type: "text/plain"})
-download.onclick = () => {
+// let file = new File([buffer], "Secret.txt", {type: "text/plain"})
+// download.onclick = () => {
     
-    let url = URL.createObjectURL(file)
-    let link = document.createElement("a")
-    link.href = url 
-    link.download = file.name 
-    document.body.append(link)
-    link.click()
+//     let url = URL.createObjectURL(file)
+//     let link = document.createElement("a")
+//     link.href = url 
+//     link.download = file.name 
+//     document.body.append(link)
+//     link.click()
 
-}
+// }
